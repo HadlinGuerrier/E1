@@ -1,0 +1,15 @@
+{
+    "version":2,
+    "name":"api",
+    "buid": [
+        {
+            "src":"server.js","use":"@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)","dest":"server.js"
+        }
+    ]
+
+}
